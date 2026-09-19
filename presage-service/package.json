@@ -1,0 +1,15 @@
+{
+  "name": "presage-bridge-service",
+  "version": "1.0.0",
+  "description": "Local Presage SmartSpectra SDK bridge for Interon TriageAI",
+  "type": "module",
+  "main": "scan.mjs",
+  "scripts": {
+    "start": "node scan.mjs"
+  },
+  "dependencies": {
+    "@smartspectra/node-sdk": "3.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
